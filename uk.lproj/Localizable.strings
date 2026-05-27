@@ -1,0 +1,44 @@
+/* App */
+"app.title" = "Wake on LAN";
+"app.subtitle" = "Домашня мережа";
+
+/* Device list */
+"device.add" = "Додати пристрій";
+"device.empty" = "Немає пристроїв";
+"device.empty.hint" = "Натисніть + щоб додати";
+
+/* Device row */
+"device.status.title" = "Статус";
+"device.status.failed" = "Помилка";
+"device.status.idle" = "Очікування";
+"device.status.waking" = "Надсилання…";
+"device.status.success" = "Пакет надіслано";
+"device.port.label" = "Порт";
+"device.broadcast.label" = "Broadcast";
+"device.wake.button" = "Увімкнути";
+"device.wake.button.waking" = "Надсилається…";
+"device.log.title" = "Журнал";
+"device.log.waking" = "Надсилання magic packet…";
+"device.log.success" = "Пакет доставлено → порт %@";
+
+/* Swipe actions */
+"action.delete" = "Видалити";
+"action.edit" = "Змінити";
+
+/* Device form */
+"form.add.title" = "Новий пристрій";
+"form.edit.title" = "Змінити";
+"form.section.device" = "Пристрій";
+"form.section.network" = "Мережа";
+"form.field.name" = "Назва";
+"form.field.mac" = "MAC-адреса";
+"form.field.port" = "Порт";
+"form.field.broadcast" = "Broadcast";
+"form.mac.error" = "Формат: 1C:69:7A:61:C3:BB";
+"form.hint" = "Magic packet буде надіслано по UDP на %@:%@";
+"form.cancel" = "Скасувати";
+"form.save" = "Зберегти";
+
+/* WoL Errors */
+"error.invalid_mac" = "Невірний формат MAC-адреси";
+"error.network" = "Помилка мережі: %@";

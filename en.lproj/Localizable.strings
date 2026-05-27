@@ -1,0 +1,44 @@
+/* App */
+"app.title" = "Wake on LAN";
+"app.subtitle" = "Home Network";
+
+/* Device list */
+"device.add" = "Add Device";
+"device.empty" = "No Devices";
+"device.empty.hint" = "Tap + to add one";
+
+/* Device row */
+"device.status.title" = "Status";
+"device.status.failed" = "Error";
+"device.status.idle" = "Idle";
+"device.status.waking" = "Sending…";
+"device.status.success" = "Packet Sent";
+"device.port.label" = "Port";
+"device.broadcast.label" = "Broadcast";
+"device.wake.button" = "Wake Up";
+"device.wake.button.waking" = "Sending…";
+"device.log.title" = "Log";
+"device.log.waking" = "Sending magic packet…";
+"device.log.success" = "Packet delivered → port %@";
+
+/* Swipe actions */
+"action.delete" = "Delete";
+"action.edit" = "Edit";
+
+/* Device form */
+"form.add.title" = "New Device";
+"form.edit.title" = "Edit Device";
+"form.section.device" = "Device";
+"form.section.network" = "Network";
+"form.field.name" = "Name";
+"form.field.mac" = "MAC Address";
+"form.field.port" = "Port";
+"form.field.broadcast" = "Broadcast";
+"form.mac.error" = "Format: 1C:69:7A:61:C3:BB";
+"form.hint" = "Magic packet will be sent via UDP to %@:%@";
+"form.cancel" = "Cancel";
+"form.save" = "Save";
+
+/* WoL Errors */
+"error.invalid_mac" = "Invalid MAC address format";
+"error.network" = "Network error: %@";

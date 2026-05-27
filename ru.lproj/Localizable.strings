@@ -1,0 +1,44 @@
+/* App */
+"app.title" = "Wake on LAN";
+"app.subtitle" = "Домашняя сеть";
+
+/* Device list */
+"device.add" = "Добавить устройство";
+"device.empty" = "Нет устройств";
+"device.empty.hint" = "Нажмите + чтобы добавить";
+
+/* Device row */
+"device.status.title" = "Статус";
+"device.status.failed" = "Ошибка";
+"device.status.idle" = "Ожидание";
+"device.status.waking" = "Отправка…";
+"device.status.success" = "Пакет отправлен";
+"device.port.label" = "Порт";
+"device.broadcast.label" = "Broadcast";
+"device.wake.button" = "Включить";
+"device.wake.button.waking" = "Отправляется…";
+"device.log.title" = "Журнал";
+"device.log.waking" = "Отправка magic packet…";
+"device.log.success" = "Пакет доставлен → порт %@";
+
+/* Swipe actions */
+"action.delete" = "Удалить";
+"action.edit" = "Изменить";
+
+/* Device form */
+"form.add.title" = "Новое устройство";
+"form.edit.title" = "Изменить";
+"form.section.device" = "Устройство";
+"form.section.network" = "Сеть";
+"form.field.name" = "Название";
+"form.field.mac" = "MAC-адрес";
+"form.field.port" = "Порт";
+"form.field.broadcast" = "Broadcast";
+"form.mac.error" = "Формат: 1C:69:7A:61:C3:BB";
+"form.hint" = "Magic packet будет отправлен по UDP на %@:%@";
+"form.cancel" = "Отмена";
+"form.save" = "Сохранить";
+
+/* WoL Errors */
+"error.invalid_mac" = "Неверный формат MAC-адреса";
+"error.network" = "Ошибка сети: %@";
